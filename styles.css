@@ -1,0 +1,257 @@
+
+body {
+    font-family: "DIN Next LT Pro",sans-serif;
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+}
+
+
+/**************** NAVBAR *****************/
+
+#navbar {
+    background-color: #000;
+    position: fixed;
+    width: 100%;
+    transition: top 0.3s;
+    padding-right: 10%;
+    opacity: 0.9;
+}
+
+#navbar a {
+    float: right;
+    display: block;
+    color: white;
+    padding: 30px 15px 30px 15px;
+    font-size: 22px;
+    text-decoration: none;
+  }
+  
+#navbar a:hover {
+    background-color: #CEEBEF;
+    color: black;
+    transition: 1s;
+}
+
+#navbar > .navbar-logo {
+    float: left;
+    margin-left: 10%;
+    width: 100px;
+    height: 80px;
+    padding: 0px;
+}
+
+#navbar > .navbar-logo:hover {
+    background-color: black;
+}
+
+
+/**************** PARALLAX *****************/
+
+.parallax { 
+    background-image: url("images/home_background.jpeg");
+    /* height: 650px;  */
+    height: 700px; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+
+.parallax > p {
+    color: white;
+    font-size: 80px;
+    margin: 0px;
+    width: 50%;
+    padding-left: 25%; 
+}
+
+.parallax > .text2 {
+    padding-left: 40%;
+    padding-top: 2%;
+}
+
+
+/**************** FOOTER *****************/
+
+footer {
+    display: flex;
+    padding: 50px 0px 50px 0px;
+    background-color: black;
+    color: #CEEBEF;
+    width: 100%;
+}
+
+footer > div {
+    float: left;
+    width: 32%;
+}
+
+footer > .image {
+    display: block; 
+    margin: auto;
+    width: 12%;
+}
+
+footer > .contacts > p {
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+.social-media-icon {
+    text-decoration: none;
+    color: #CEEBEF;
+    margin-right: 3%;
+    padding: 15px 12px 15px 12px;
+    border: 1px solid #CEEBEF;
+    border-radius: 100%;
+
+}
+
+
+
+
+/**************** QUEM SOMOS *****************/
+
+:root {
+    --background-color: white;
+    --base-letters-collor: #0c5e74;
+    --headers-collor: #333C67; 
+}
+
+#quemSomos {
+    background-color: var(--background-color);
+    color: var(--base-letters-collor);
+    padding: 50px;
+    padding-top: 20px;
+    padding-bottom: 60px;
+    margin-bottom: 50px;
+}
+
+#quemSomos > p {
+    text-indent: 50px;
+    font-size: 30px;
+    padding: 0px 40px 0px 40px;
+    margin: 0px;
+}
+
+#quemSomos > .titulo {
+    color: var(--headers-collor);
+    text-indent: 0px;
+    font-size: 50px;
+    border-bottom: 3px solid var(--headers-collor);
+    width: 30%;
+    text-align: center;
+    margin: 30px auto 50px auto;
+}
+
+.mvv {
+    display: flex;
+    width: 100%;
+    text-align: center;
+    margin-top: 70px;
+    margin-bottom: 20px;
+}
+
+.mvv > div {
+    width:33%;
+    float: left;
+}
+
+.mvv > div > img {
+    height: 100px;
+    width: 100px;
+}
+
+.mvv > div > h1 {
+    margin: 0px;
+    color: var(--headers-collor);
+}
+
+
+
+
+
+
+/**************** CASES*****************/
+
+:root {
+    --background-color-cases: #ffffff;
+    --letters-collor-case: #333C67;
+    --headers-collor-case: #0c5e74; 
+}
+
+.cases {
+    padding-top: 120px;
+    height: 520px;
+    width: 100%;
+    background-color: var(--background-color-cases);
+    color: var(--letters-collor-case);
+}
+
+.cases > .titulo {
+    color: var(--headers-collor-case);
+    text-indent: 0px;
+    font-size: 50px;
+    border-bottom: 3px solid var(--headers-collor-case);
+    border-right: 3px solid var(--headers-collor-case);    
+    width: 30%;
+    margin: 0px auto 70px 800px;
+    text-align: end;
+    padding-right: 8px;
+}
+
+.cases-exemplos {
+    display: flex;
+    width: 100%;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.cases-exemplos > div {
+    width:33%;
+    float: left;
+}
+
+.cases-exemplos > div > img {
+    height: 150px;
+    width: 150px;
+}
+
+.cases-exemplos > div > h1 {
+    margin: 0px;
+    color: var(--headers-collor);
+}
+
+.cases-exemplos > div > p {
+    width: 50%;
+    padding-left: 25%;
+}
+
+
+
+
+
+
+/**************** CLIENTES *****************/ 
+
+.clientes {
+    padding: 30px;
+    padding-top: 60px;
+    padding-bottom: 50px;
+}
+
+.clientes > .titulo {
+    color: #333C67;
+    font-size: 15px;
+    margin-bottom: 0px;
+}
+
+.clientes > .mensagem {
+    color: #333C67;
+    font-size: 40px;
+    margin-top: 5px;
+
+}
+
